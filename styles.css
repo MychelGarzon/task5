@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  background-color: rgb(55, 102, 73);
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 122, 81);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: center;
+}
+
+.flex-form {
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  font-size: 10px;
+}
+
+.flex-form h1,
+.flex-form h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.flex-form {
+  margin-top: 20px;
+}
+.flex-form label {
+  padding-top: 10px;
+}
+
+.flex-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a7a7a7;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.flex-form button {
+  width: 80%;
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.flex-container footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.flex-container .bottom-text a:hover {
+  text-decoration: underline;
+}
+.flex-container button:hover {
+  background-color: ;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    display: flex;
+  }
+}
