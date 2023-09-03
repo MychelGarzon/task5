@@ -75,8 +75,8 @@ footer {
 .flex-container .bottom-text a:hover {
   text-decoration: underline;
 }
-button a:hover {
-  background-color: red;
+button:hover {
+  background-color: rgb(225, 103, 59);
 }
 
 @media (max-width: 800px) {
